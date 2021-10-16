@@ -5,15 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nathan H Portfolio Website</title>
         <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-
-
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+        <link rel="stylesheet" 
+            href="css/style.css">
 
     </head>
     <body>
@@ -27,9 +26,9 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">What I do</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Who I am</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
                 </ul>
             </nav>
         </header>
@@ -50,60 +49,70 @@
 
                 <!--service-->
                 <div class="service">
-                    <h3>Linux and Open Source</h3>
-                    <p>As a linux evangalist I daily compute with Manjaro and Arch linux. 
-                    The server running this site is Ubuntu LEMP stack. I was enrolled in 
-                    a basic Linux OS course at Texas State and used vscode/vim for most 
-                    Bash and C coding. </p>
+                    <h3>Linux, Python, GCP</h3>
+                    <p>As a Linux evangalist I compute daily with Arch linux. 
+                    GCP(Google Cloud Platform) is the main cloud service I am
+                    familiar with and this site is running inside a cloud storage
+                    bucket on GCP. My favorite part of GCP is their cloud function
+                    product which can be used to host python scripts for GCP automation.
+                    </p>
                 </div>
 
                 <!--service-->
                 <div class="service">
-                    <h3>Python & C++</h3>
-                    <p>Python and C++ are daily laugages of problem solving and personal 
-                    projects. Currently I have a small demo of spatial_clustering with 
-                    Python using geopandas and a larger black jack project still under 
-                    development using pygame. Both projects are on my github (link bellow).</p>
+                    <h3>APMEX</h3>
+                    <p>Python and SQL are the daily laugages used for general problem solving and
+                    workplace resolutions. APMEX's BI department is reliant on data from our internal 
+                    SQL DB, Tableau Server, and other 3rd party API connections. There is never
+                    a moment where my abilities are not tested and improved. APMEX is an extremely
+                    fast pace company where new initiatives can be proposed and ticketed on short
+                    notice. I am thankful for a job that keeps me on my toes and pushes me to learn.</p>
                 </div>
 
                 <!--service-->
                 <div class="service">
-                    <h3>Comp Sci Degree and LEMP Stack</h3>
-                    <p>With my degree from Texas State I am exploring my options to start 
-                    a computer science development carreer. Future projects will be posted 
-                    here as I add them. Currently I am focused on web development specifically 
-                    the LEMP stack with this site being a small example of personal progress.</p>
+                    <h3>Comp Sci Degree and Future Goals</h3>
+                    <p>After gaining a Computer Science degree from Texas State I accepted 
+                    a position at APMEX.  Currently I am focused on GCP development, including 
+                    BigQuery and supporting GCP services to maintain and expand APMEX's 
+                    data-lake. An example would be maintaing Tableau Server connections to
+                    BigQuery and expanding the data-lake with new data sources. 
+                    </p>
                 </div> 
             </div>
-            <a href="#work" class="btn">My Work</a>
+            <!-- <a href="#work" class="btn">NULL</a> -->
         </section>
 
         <!-- Who I am -->
         <section class="about-me" id="about">
             <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">Texas Based Cyber Cowboy</p>
+            <p class="section__subtitle section__subtitle--about">Oklahoma Based Data Cowboy</p>
 
             <div class="about-me__body">
-                <p>The web and network technology have been present in my life since Windows 95.
-                     I have had great role models and support from family to attain a degree at 
-                     Texas State too further myself in the attainment of software technologies 
-                     that I once drempt of understanding. I still dream of learning from great 
-                     mentors and helping other dreamers learn the importance of technological 
-                     competence in a world expanding with Moore’s law. I can be reached at 
-                     anytime from my email below. </p>
+                <p> Computers and the Web have been present in my life since Windows 95.
+                I was fortunate to have great role models and family support while 
+                I studied and obtained my degree at 
+                Texas State. From there I have continued my education and have begun my career
+                at APMEX. Moving forward, my goals are to get closer to data and to inspire others
+                to adopt data driven solutions. 
+                I can be reached at anytime from my email below. </p>
             </div>
 
             <img src="img_custm/graduated.jpg" alt="Nathan At Wichita Mountains" class="about-me__img">
         </section>
 
-        <!-- My Work -->
+        <!-- My Projects -->
         <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-
+            <h2 class="section__title section__title--work">My Projects</h2>
+            <p> Projects listed bellow include a small demo of spatial_clustering with 
+                Python using geopandas and a larger black jack project no longer under
+                development using pygame. Both projects were developed while 
+                pursuing my Bachelor's Degree at Texas State University.
+                Future personal projects will be posted here as I add them.</p>
             <div class="portfolio">
                 <h3 class="portfolio__header">
                     <a href="https://github.com/socratical/Blackjack-Project">
-                        Python BlackJack
+                        TXState: Python BlackJack
                     </a>
                 </h3>
                 <img src="img_custm/pyBlackjack.jpg">
@@ -112,7 +121,7 @@
             <div class="portfolio">
                 <h3 class="portfolio__header">
                     <a href="spatial_clustering/spatial_cluster.html">
-                        Spatial Clustering Web Demo
+                        TXState: Spatial Clustering Web Demo
                     </a>
                 </h3>
                 <img src="img_custm/AustinKMeans.jpg">
@@ -121,13 +130,13 @@
 
         <!-- Footer -->
         <footer class="footer">
-            <a href="mailto:nathanhhancock@gmail.com" class="footer-link">nathanhhancock@gmail.com</a>
+            <a href="mailto:nathanhhancock@gmail.com" class="footer-link">mail@nathanhancock.xyz</a>
             <ul class="social-list">
-                <li class="social-list__item">
+                <!-- <li class="social-list__item">
                     <a class="social-list__link" href="https://codepen.io">
                         <i class="fas fa-code"></i>
                     </a>
-                </li>
+                </li> -->
                 <li class="social-list__item">
                     <a class="social-list__link" href="https://github.com/socratical">
                         <i class="fab fa-github"></i>
