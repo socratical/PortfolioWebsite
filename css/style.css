@@ -304,21 +304,23 @@ header {
     background-size: cover;
     /* background-blend-mode: multiply; */
     color: var(--clr-darker);
-    text-align: left;
+    text-align: center;
 }
 
 .section__title--services {
     color: var(--clr-accent);
-    position: relative;
+    position: center;
 }
 
 .section__title--services::after {
     content: '';
     display: block;
+    text-align: center;
     width: 5em;
     height: 4px;
     /* margin: 0.5em auto 1em; */
     margin-bottom: 1em;
+    margin: 0 auto;
     background: var(--clr-dark);
     opacity: 1;
     
