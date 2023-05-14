@@ -316,8 +316,8 @@ header {
     content: '';
     display: block;
     text-align: center;
-    width: 5em;
-    height: 4px;
+    width: 7em;
+    height: 7px;
     /* margin: 0.5em auto 1em; */
     margin-bottom: 1em;
     margin: 0 auto;
@@ -369,7 +369,7 @@ header {
             "title img"
             "subtitle img"
             "text img";
-        grid-column-gap: 2em;
+        grid-column-gap: 3em;
     }
 
     .section__title--about {
